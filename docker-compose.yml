@@ -1,5 +1,5 @@
 services:
-  app:
+  dashboard:
     image: fscarmen/argo-nezha:latest
     ports:
       - "80:80"
