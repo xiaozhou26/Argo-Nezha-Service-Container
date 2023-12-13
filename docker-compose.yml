@@ -11,5 +11,5 @@ services:
       GH_REPO: natuo
       GH_EMAIL: xiaofei@angelxf.tk
       GH_PAT: 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
-      ARGO_AUTH: {"AccountTag":"2681ad2c415ff1ced5c9c913bd2c12ab","TunnelSecret":"qfqPMm/bBaVOZzVxWLpVVNKqj8HKMJ/BqGJdRMPLhYo: ","TunnelID":"015b631c-324b-4dad-8477-da3c575d783f"}
+      ARGO_AUTH: ${ARGO_AUTH}
       ARGO_DOMAIN: tz.xfvps.eu.org
