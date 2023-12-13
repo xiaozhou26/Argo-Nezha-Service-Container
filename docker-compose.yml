@@ -1,3 +1,15 @@
 services:
-  argo-nezha:
-        image: fscarmen/argo-nezha
+  dashboard:
+    image: fscarmen/argo-nezha:latest
+    ports:
+      - "80:80"
+    environment:
+      - GH_USER=$GH_USER
+      - GH_CLIENTID=$GH_CLIENTID
+      - GH_CLIENTSECRET=$GH_CLIENTSECRET
+      - GH_BACKUP_USER=$GH_BACKUP_USER
+      - GH_REPO=$GH_REPO
+      - GH_EMAIL=$GH_EMAIL
+      - GH_PAT=$GH_PAT
+      - ARGO_AUTH=$ARGO_AUTH
+      - ARGO_DOMAIN=$ARGO_DOMAIN
