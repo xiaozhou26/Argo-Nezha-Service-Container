@@ -1,8 +1,6 @@
 services:
   argo-nezha:
         image: fscarmen/argo-nezha
-        pull: always
-        container_name: nezha_dashboard
         restart: always
   environment:
       - GH_USER=$GH_USER
