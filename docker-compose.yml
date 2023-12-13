@@ -1,7 +1,6 @@
 services:
   argo-nezha:
         image: fscarmen/argo-nezha
-        restart: always
   environment:
       - GH_USER=$GH_USER
       - GH_CLIENTID=$GH_CLIENTID
